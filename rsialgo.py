@@ -272,7 +272,7 @@ for symbol in symbols:
     ppo_current = ppo.ix[-1,]
     ppo_current = ppo_current[0]
 
-    if mfi_current < 30:
+    if rsi_current < 30:
         stocks.append(symbol)
         
 print(stocks)
